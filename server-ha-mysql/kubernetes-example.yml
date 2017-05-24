@@ -109,7 +109,7 @@ spec:
     spec:
       containers:
         - name: keycoak
-          image: solsson/keycloak-ha-mysql
+          image: solsson/keycloak-ha-mysql:3
           ports:
             - name: http
               containerPort: 8080
