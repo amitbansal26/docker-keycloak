@@ -140,7 +140,7 @@ spec:
           env:
             - name: MYSQL_DATABASE
               value: keycloak
-            - name: MYSQL_USER
+            - name: MYSQL_USERNAME
               value: keycloak
             - name: MYSQL_PASSWORD
               value: keycloak
