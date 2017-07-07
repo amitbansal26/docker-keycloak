@@ -8,7 +8,7 @@ Extends the Keycloak docker image to use MySQL
 
 First start a MySQL instance using the MySQL docker image:
 
-    docker run --name mysql -e MYSQL_DATABASE=keycloak -e MYSQL_USER=keycloak -e MYSQL_PASSWORD=password -e MYSQL_ROOT_PASSWORD=root_password -d mysql
+    docker run --name mysql -e MYSQL_DATABASE=keycloak -e MYSQL_USERNAME=keycloak -e MYSQL_PASSWORD=password -e MYSQL_ROOT_PASSWORD=root_password -d mysql
 
 ### Start a Keycloak instance
 
